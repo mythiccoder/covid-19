@@ -80,7 +80,7 @@ background: rgba(255,0,0,0.7);
 color: white;
 
 }
-a:link{color: white;
+a{color: white;
 text-decoration:none;}
-a:hover{color:white;
+a:hover{color:red;
 text-decoration:none;}
