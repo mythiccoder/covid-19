@@ -1,0 +1,144 @@
+*{
+margin: 0; padding: 0; box-sizing: border-box;
+transition:background 0.3s linear;
+font-family: 'Oswald', sans-serif;
+}
+
+@font-face{
+font-family: chinafont;
+src:url(china.ttf);
+}
+
+.logo h1{
+font-family: chinafont;
+transition:color 0.5s linear;
+}
+
+.logo h1:hover{
+color: red;
+}
+
+ul li:hover{
+color: rgba(255,0,0,1);
+cursor: pointer;
+}
+
+.main-content{
+position: absolute;
+top: 0;
+width: 100%;
+z-index: -1;
+}
+
+.leftside{
+background-image:url('https://source.unsplash.com/random/?covid19'),linear-gradient(to left,rgba(0,0,0,0.1),rgba(0,0,0,0.2));
+width: 100%; height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+
+
+.rightside{
+background-color:black;
+}
+
+.right-content h1{
+font-size: 35px;
+font-weight: 400;
+letter-spacing: 0.06em;
+line-height: 1.25;
+padding: 30px 0 35px 0;
+}
+
+.right-content p{
+border-left: 1px solid #555;
+font-weight: 100;
+font-family: 'Raleway', sans-serif;
+padding: 50px 30px;
+font-size: 0.9em;
+
+}
+
+button{
+border:none;
+background: #fff;
+letter-spacing: 0.25em;
+font-weight: 700;
+font-size: 10px;
+text-transform: uppercase;
+color: #111;
+padding: 15px 25px;
+margin: 30px 0 0 30px;
+transition: all 0.3s linear;
+
+}
+
+button:hover{
+background: rgba(255,0,0,0.7);
+color: white;
+
+}
+
+h3{
+border-radius: 	3px 3px 3px 3px;
+color: white;
+background-color: black;
+text-align: center;
+height: 45px ;
+padding: 9px ;
+font-size: 20px;
+}
+
+h2{
+	color: white;
+	border-radius: 3px 3px 3px 3px;
+}
+
+table{border-radius: 3px 3px 3px 3px;
+	background-color: black;
+	border:none;
+	text-align: center;
+	height: 40px;
+	letter-spacing: 1px;
+
+}
+table td:hover{
+	background-color: #909090;
+}
+
+#na{
+	color: white;
+	text-decoration: none;
+	align-content: center;
+}
+
+
+li{
+	margin-left:50px;
+}
+body{
+margin-left: 20px;
+}
+h2{ margin: 20px 10px 20px 5px;
+	padding:  5px 20px 5px 20px;
+	background-color: black;
+	max-width: 500px;
+	height: 30px;
+}
+.ss{
+	font-family:'Oswald', sans-serif;
+	line-height: 22px;
+	background-color: #b0c4de;
+	padding: 7px 20px 20px 30px;
+	margin: 20px 20px 20px 20px ;
+}
+
+.ss:hover{
+	background-color: #a0a0a0;
+
+}
+ #hindi{
+	display: inline-block; 
+}
